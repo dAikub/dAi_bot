@@ -22,7 +22,7 @@ from random import choice
 from string import ascii_uppercase, digits
 from re import A, search
 from requests import post, Session, get
-bot = interactions.Client("MTAzOTE3MjI1MTI4MDQ4NjUxMA.GYDxyF.eLSSmQXXbrojpGyzggqxOZHyM3cxuot4fVTiak",intents=interactions.Intents.DEFAULT | interactions.Intents.GUILD_MESSAGES)
+bot = interactions.Client("token",intents=interactions.Intents.DEFAULT | interactions.Intents.GUILD_MESSAGES)
 useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40"
 header = {
     "user-agent":
@@ -51,7 +51,7 @@ logo1 = '''
  :::: ::  ::   :::   :: 
 :: :  :    :   : :  :    
                          '''
-
+#2020
 logo = '''
 ┏━━━┳━━━┳━━┓
 ┗┓┏┓┃┏━┓┣┫┣┛
@@ -79,7 +79,7 @@ async def on_start():
 
 )
 async def about_me(ctx: interactions.CommandContext):
-    await ctx.send(logo+"-+-+-+- dAi -+-+-+-\nEducation Purpose!\nเพื่อการศึกษาเท่านั้น ทางเราไม่มีส่วนเกี่ยวข้องหากมีคนนำไปใช้ในทางที่ผิด\n||https://discord.com/api/oauth2/authorize?client_id=1039172251280486510&permissions=8&scope=applications.commands%20bot||")
+    await ctx.send(logo+"-+-+-+- dAi -+-+-+-")
 
 
 
@@ -90,7 +90,7 @@ async def about_me(ctx: interactions.CommandContext):
 
 )
 async def dai(ctx: interactions.CommandContext):
-    await ctx.send(logo+"-+-+-+- dAi -+-+-+-\nInstagram : ||instagram.com/zmpvwa_/|| \nFacebook  : ||facebook.com/profile.php?id=10000**********||")
+    await ctx.send(logo+"-+-+-+- dAi -+-+-+-\nInstagram : ||instagram.com//|| \nFacebook  : ||facebook.com/||")
 
 
 @bot.command(
@@ -255,10 +255,10 @@ async def on_message_create(message: Message):
         # check = "fg"
         
         # if check == "1":
-        #     user = "371207677214457856"
+        #     user = "x"
         #     channel = interactions.Channel(**await bot._http.create_dm(int(user)),_client=bot._http)
-        #     embed_load = interactions.Embed(title="BU Script Kiddies")
-        #     embed_load.set_footer(text="BU Script Kiddies")
+        #     embed_load = interactions.Embed(title="x")
+        #     embed_load.set_footer(text="x")
         #     embed_load.add_field(name="> *สถานะบอท*", value=f"```fix\nกำลังโหลดเบอร์ที่ยิงล่าสุด...\n```", inline=True)
         #     await channel.send(embeds=embed_load)
         #     time.sleep(2)
@@ -278,10 +278,10 @@ async def on_message_create(message: Message):
         #     await channel.send(embeds=embed_phone, components=[agin_spam])     
         # else:
         #     print("In")
-        #     user = "460809521967792129"
+        #     user = "x"
         #     channel = interactions.Channel(**await bot._http.create_dm(int(user)),_client=bot._http)
-        #     embed_ready = interactions.Embed(title="BU Script Kiddies")
-        #     embed_ready.set_footer(text="BU Script Kiddies")
+        #     embed_ready = interactions.Embed(title="x")
+        #     embed_ready.set_footer(text="x")
         #     embed_ready.add_field(name="> *สถานะบอท*", value=f"```diff\n+ ไอบีมหัวแตก\n```", inline=True)
         #     embed_ready.add_field(name="_ _", value="_ _", inline=False)
         #     embed_ready.add_field(name="> *คำสั่งยิง*", value="```yml\n DAIGODMAFUCKER \n```", inline=False)
@@ -295,7 +295,7 @@ async def on_message_create(message: Message):
 
 
         #     print("In2")
-        #     user = "452449461147271178"
+        #     user = "x"
         #     channel = interactions.Channel(**await bot._http.create_dm(int(user)),_client=bot._http)
         #     embed_ready = interactions.Embed(title="BU Script Kiddies")
         #     embed_ready.set_footer(text="BU Script Kiddies")
@@ -310,10 +310,10 @@ async def on_message_create(message: Message):
         #     await channel.send(embeds=embed_ready, components=[start_spam])
     
         #     print("In3")
-        #     user = "472717692911222784"
+        #     user = "x"
         #     channel = interactions.Channel(**await bot._http.create_dm(int(user)),_client=bot._http)
-        #     embed_ready = interactions.Embed(title="BU Script Kiddies")
-        #     embed_ready.set_footer(text="BU Script Kiddies")
+        #     embed_ready = interactions.Embed(title="x")
+        #     embed_ready.set_footer(text="x")
         #     embed_ready.add_field(name="> *สถานะบอท*", value=f"```diff\n+ ไอบีมหัวแตก\n```", inline=True)
         #     embed_ready.add_field(name="_ _", value="_ _", inline=False)
         #     embed_ready.add_field(name="> *คำสั่งยิง*", value="```yml\n DAIGODMAFUCKER \n```", inline=False)
@@ -438,8 +438,8 @@ async def stop_spam(ctx: interactions.ComponentContext):
 #     time.sleep(1)
 #     last_phone = open("phone.txt", "r")
 #     phone = last_phone.read()
-#     embed_agin = interactions.Embed(title="BU Script Kiddies")
-#     embed_agin.set_footer(text="BU Script Kiddies")
+#     embed_agin = interactions.Embed(title="x")
+#     embed_agin.set_footer(text="x")
 #     embed_agin.add_field(name="> *เบอร์เป้าหมาย*", value=f"```fix\n {phone} \n```", inline=True)
 #     await ctx.send(embeds=embed_agin)
 #     time.sleep(2)
@@ -448,7 +448,7 @@ async def stop_spam(ctx: interactions.ComponentContext):
 #         phone = agin_phone
 #         api = "107"
 #         embed_as = interactions.Embed(title="Run-times")
-#         embed_as.set_footer(text="BU Script Kiddies")
+#         embed_as.set_footer(text="x")
 #         embed_as.add_field(name="> *เบอร์เป้าหมาย*", value=f"```fix\n{phone}\n```", inline=True)
 #         embed_as.add_field(name="> *จำนวน API*", value=f"```json\n{api}\n```", inline=True)
 #         embed_as.add_field(name="_ _", value="_ _", inline=False)
@@ -456,8 +456,8 @@ async def stop_spam(ctx: interactions.ComponentContext):
 #         embed_as.add_field(name="_ _", value="_ _", inline=False)
 #         DM_sms(phone)
 #         mes = await ctx.send(embeds=embed_as)
-#     embed_end01 = interactions.Embed(title="BU Script Kiddies")
-#     embed_end01.set_footer(text="BU Script Kiddies")
+#     embed_end01 = interactions.Embed(title="x")
+#     embed_end01.set_footer(text="x")
 #     embed_end01.add_field(name="> *เบอร์เป้าหมาย*", value=f"```fix\n{phone}\n```", inline=True)
 #     embed_end01.add_field(name="_ _", value="_ _", inline=False)
 #     embed_end01.add_field(name="> *จำนวนรอบ*", value=f"```\n{_} / {_} \n```", inline=False)
